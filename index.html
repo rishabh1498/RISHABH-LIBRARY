@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+<!-- css rest -->
+<style>
+
+    body{
+        font-family: 'Balsamiq Sans', cursive;
+        color: rgb(8, 1, 3);
+        margin: 0px;
+        padding: 0px;
+        background-image: url("https://previews.123rf.com/images/peshkov/peshkov1604/peshkov160400135/55888496-library-interior-design-with-massive-bookshelves-concrete-floor-and-city-view-3d-rendering.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%   ;
+    }
+    .left{
+        line-height: 20px;
+        font-size: 21px;
+        display: inline-block;
+        color: #080000;
+        /* border: 2px solid rgb(219, 83, 20); */
+        position: absolute;
+        left:32px;
+        top: 20px;
+    }
+    .left img{
+        width: 62px;
+    }
+    .left div{
+        text-align: center;
+        color: #000000fc;
+        background-color: #ffe5e5;
+    }
+    .mid{
+        display: block;
+        width: 44%;
+        margin:20px auto;
+        /* border: 2px solid rgb(192, 127, 127); */
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right:34px;
+        top: 20px;
+        /* border: 2px solid rgb(204, 216, 219); */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 21px;
+        margin: 3px;
+        padding: 2px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: #141302;
+    }
+    .btn{
+        margin: 3px;
+        background-color: black;
+        color: white;
+        padding:6px 12px;
+        border: 2px solid pink;
+        cursor: pointer;
+        
+    }
+    .btn:hover{
+        background-color: rgb(143, 129, 194);
+    }
+    #logo{
+        display: inline-block;
+        width: 100px;
+        margin: 13px;
+        float: none;
+    }
+    .container{
+        border: 2px solid rgb(23,9,3);
+        text-align: center;
+        border-radius: 49px;
+        margin: 98px 33px;
+        padding: 40px 52px;
+        width: 33%;
+    }
+    .group input {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    display: block;
+    width: 419px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 21px;
+    border-radius: 65px;
+}
+   .container button{
+       font-size: 21px;
+       background-color: #9a6522;
+       border-radius: 55px;
+   }
+   .reg{
+        background-color: #37ebf1;
+        border:2px solid brown;
+        border-radius: 32px;
+   }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+         <img id="logo" src="https://i.pinimg.com/originals/0d/01/73/0d0173e06b57b2f91611683b35500e47.jpg" alt="image not avilable">
+         <div>RISHABH LIBRARY</div>
+            
+        </div>
+        <!-- mid for nav  -->
+        <div class="mid">
+            <ul class="navbar">
+              <li> <a href="#"> HOME</a></li>
+              <li> <a href="#">ABOUT US</a> </li>
+              <li> <a href="#">OUR STORES</a> </li>
+              <li> <a href="#">CONTACT US</a> </li>
+          </ul>
+         
+        </div>
+        <!-- right for button  -->
+        <div class="right">
+                <button class="btn">SUPPORT US</button>
+                <button class="btn">RATE US</button>
+        </div>
+    </header>
+</body>
+<div class="container">
+    <h2 class="reg">Register For Library</h2>
+    <form action="noaction.php">
+        <div class="group">
+            <input  type="text" name="" placeholder="Enter Your Name" id="">
+        </div>
+        <div class="group">
+            <input  type="number" name="" placeholder="Enter Your Age" id="">
+        </div>
+        <div class="group">
+            <input  type="text" name=""Enter Your Gender placeholder="Enter Your Gender" id="">
+        </div>
+        <div class="group">
+            <input  type="text" name="" placeholder="Enter Your Area" id="">
+        <div class="group">
+            <input  type="text" name="" placeholder="Enter Your Phone No." id="">
+         </div>   
+        </div>
+        <button class="btn">
+            Submit
+        </button>
+    </form>
+</div>
+</html>
